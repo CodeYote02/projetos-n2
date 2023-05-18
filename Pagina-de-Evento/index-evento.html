@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="estilos/style-branco.css" type="text/css" id="estilo">
     <title>Evento Top</title>
 </head>
 <body>
@@ -18,7 +18,7 @@
                 <li style="width: 50px;"></li>
                 <li class="tema"><a>Tema</a>
                     <ul>
-                        <li><a>Dark</a></li>
+                        <li><button id="mudar-estilo" onclick="mudarEstilo()">Dark</button></li>
                     </ul>
                 </li>
                 <li><a href="#footer">Sobre</a></li>
@@ -47,6 +47,7 @@
             </selection>
         </div>
         <div class="menu">
+          <div style="height: 50px;"></div>
             <selection id="informacoes" class="informacoes">
               <div class="espaco"></div>
               <div class="div-informacoes">
@@ -61,11 +62,14 @@
                     demonstrações de jogos, competições, shows ao vivo e workshops. Os ingressos para o evento estarão disponíveis online e em lojas físicas, 
                     com preços variando dependendo do tipo de acesso desejado. Com certeza será um evento emocionante para os fãs de jogos em todo o Brasil!</p>
                 </div>
+                <div class="botoes">
+                  <button>Participe</button>
+                  <button>Mais<img src="imagens/seta.png" width="15px"></button>
+                </div>
               </div>
-              <div class="espaco"></div>
             </selection>
+            <div style="height: 50px;"></div>
             <div class="carrossel">
-              <h1>carrossel</h1>
               <div class="slideshow-container">
                 <div class="mySlides fade">
                   <img src="https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/2x1_NSwitchDS_Fortnite_Chapter4_Season2.jpg" style="width:100%">
@@ -76,21 +80,63 @@
                 </div>
               
                 <div class="mySlides fade">
-                  <img src="https://www.gameforfun.com.br/wp-content/uploads/2014/02/BF4_player_appreciation_month-promo_640x360.png" style="width:100%">
+                  <img src="https://cdn1.epicgames.com/offer/24b9b5e323bc40eea252a10cdd3b2f10/LOL_2560x1440-98749e0d718e82d27a084941939bc9d3" style="width:100%">
                 </div>
               
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
               </div>
-              
+              <div class="jogos">
+                <div style="height: 50px;"></div>
+                <h1>Campeonato</h1>
+                <div class="p">
+                  <br>
+                  <p>O campeonato de jogos será a principal atividade do evento realizado pela YoteGames em Fortaleza, Ceará. Os jogos em destaque serão Fortnite, CS:GO (Counter-Strike: Global Offensive) e League of Legends (LoL).</p>
+                <br>
+                  <p>O campeonato contará com equipes de jogadores profissionais e amadores competindo entre si em cada um dos jogos. Os participantes terão a oportunidade de mostrar suas habilidades e estratégias, buscando a vitória e o reconhecimento como campeões.</p>
+                  <br>
+                  <p>No torneio de Fortnite, os jogadores irão se enfrentar em emocionantes batalhas de sobrevivência, utilizando suas habilidades de construção, estratégia e pontaria para conquistar a vitória e se tornarem os melhores no jogo.</p>
+                  <br>
+                  <p>No CS:GO, os times competirão em intensas partidas de tiro em primeira pessoa, onde a coordenação em equipe, a precisão nos disparos e a estratégia tática serão fundamentais para alcançar o sucesso e dominar os oponentes.</p>
+                  <br>
+                  <p>Já no League of Legends, os jogadores se enfrentarão em uma arena de batalha multiplayer online, utilizando campeões com habilidades únicas para conquistar objetivos e destruir a base inimiga. A comunicação em equipe, o controle de mapa e a habilidade individual serão determinantes para garantir a vitória.</p>
+                  <br>
+                  <p>O campeonato será realizado em um ambiente competitivo e emocionante, com partidas sendo transmitidas em telões para que os espectadores possam acompanhar e torcer pelos seus times favoritos. Além disso, os vencedores do campeonato terão a chance de ganhar prêmios em dinheiro, produtos relacionados aos jogos e o reconhecimento da comunidade gamer.</p>
+                  <br>
+                  <p>Será uma oportunidade imperdível para os fãs desses jogos assistirem a jogadas incríveis, torcerem por seus jogadores favoritos e mergulharem na atmosfera competitiva e empolgante dos eSports.</p>
+                </div>
+                <div style="height: 50px;"></div>
+              </div>
             </div>
         </div>
         <div class="footer">
             <selection id="footer" class="footer">
-                <h1>Footer</h1>
+              <!-- COMEÇO DO RODAPÉ -->
+              <p>
+                &copy; Created for
+
+                  CodeYote02 <i class="fab fa-free-code-camp"></i>
+                  <a
+          id="profile-link"
+          href="https://github.com/CodeYote02/projetos-n1.git"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-github"></i> GitHub</a
+        >
+       
+        <a href="mailto:codeyote02@gmail.com" class="btn contact-details"
+          ><i class="fas fa-at"></i> Gmail</a
+        >
+        <a href="tel:85 99656-3648" class="btn contact-details"
+          ><i class="fas fa-mobile-alt"></i> Telefone</a
+        >
+              </p>
+  
+              <!-- FINAL DO RODAPÉ -->
             </selection>
         </div>
     </div>
-    <script src="script-carrossel.js"></script>
+    <script src="scripts/script-tema.js"></script>
+    <script src="scripts/script-carrossel.js"></script>
 </body>
 </html>
