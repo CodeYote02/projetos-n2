@@ -15,6 +15,9 @@ html {
     padding: 0;
     margin: 0;
 }
+a{
+  text-decoration: none;
+}
   
 .header {
     display: flex;
@@ -59,9 +62,18 @@ html {
 .tema ul {
     display: none;
     list-style: none;
+    justify-content: end;
 }
 .tema:hover ul {
     display: block;
+}
+.tema .botoes button {
+  width: 35px;
+  font-weight: normal;
+  font-size: 13px;
+  background-color: black;
+  color: white;
+  border: none;
 }
   
 .menu {
@@ -93,7 +105,7 @@ html {
     justify-content: space-around;
     margin-top: 20px;
   }
-  .div-informacoes button {
+  .botoes button {
     width: 100px;
     font-size: 15px;
     font-weight: bold;
@@ -102,7 +114,7 @@ html {
     border-radius: 3px;
     cursor: pointer;
   }
-  .div-informacoes button img {
+  .botoes button img {
     position: relative;
     top: 2px;
     left: 10px;
@@ -191,9 +203,43 @@ html {
   }
   
 .footer {
-    background-color: #e31737;
+    background-color: white;
     grid-area: footer;
+    text-align: justify;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
   }
+  .footer .contatos  {
+    display: flex;
+    justify-content: center;
+    
+  }
+  .footer .contatos img {
+    width: 50px;
+    margin: 20px;
+  }
+  
+  .footer > p {
+    
+    margin: 2rem;
+    
+  }
+  
+  .footer i {
+    vertical-align: middle;
+  }
+  
+  @media (max-width: 28.75em) {
+    .footer {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  
   
   
 .container {
