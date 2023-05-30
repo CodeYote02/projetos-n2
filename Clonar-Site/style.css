@@ -1,0 +1,22 @@
+body {
+    background-color: #000 !important;
+}
+
+.logo {
+    max-height: 105px;
+    position: absolute;
+    top: -10px;
+    left: 180px;
+}
+
+.btn-login {
+    position: absolute;
+    right: 215px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    min-height: 2rem;
+    padding: 0.25rem 1rem;
+    background: rgb(229,9,20);
+    color: rgb(255,255,255);
+    border-radius: 3px;
+}
