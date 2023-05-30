@@ -32,6 +32,12 @@ a{
     margin-top: 10px;
     z-index: 10;
 }
+.wolfpreto {
+  display: block;
+}
+.wolfbranco {
+  display: none;
+}
   
 .nav {
     position: fixed;
@@ -122,6 +128,7 @@ a{
   .carrossel {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     width: 100%;
     background-color: #e47316;
   }
@@ -133,6 +140,9 @@ a{
   
   .mySlides {
     display: none;
+  }
+  .mySlides img {
+    border-radius: 5px;
   }
   
   .prev,
