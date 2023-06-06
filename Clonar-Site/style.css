@@ -8,6 +8,9 @@ body {
     background-color: #000 !important;
     font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;;
 }
+h1 {
+    color: #fff;
+}
 header {
     background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/76c10fc9-7ccd-4fbf-bc59-f16a468921ca/529648c5-e595-4746-af3f-fab3106e3146/BR-pt-20230529-popsignuptwoweeks-perspective_alpha_website_large.jpg");
     height: 750px;
@@ -85,6 +88,10 @@ header .btn-login:hover {
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.548);
 }
+.div-email input::placeholder {
+    position: relative;
+    left: 10px;
+}
 .div-email button {
     width: 180px;
     height: 55px;
@@ -97,4 +104,22 @@ header .btn-login:hover {
     color: white;
     position: relative;
     top: 4px;
+}
+.flex {
+    display: flex;
+    position: absolute;
+    top: 1000px;
+}
+.frases {
+    width: 50%;
+    color: #fff;
+}
+.video{
+    width: 50%;
+}
+.video video {
+    position: relative;
+    top: -380px;
+    left: 85px;
+    width: 450px;
 }
