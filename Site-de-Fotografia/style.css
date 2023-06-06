@@ -2,9 +2,10 @@ body {
     text-align: center;
 }
 h1 {
-    font-family: 'Pacifico', cursive;
-    width: 100%;
+  font-family: 'Lobster', cursive;
+  width: 100%;
 }
+
 .main {
     display: flex;
 }
@@ -29,10 +30,16 @@ h1 {
     justify-content: center;
     flex-wrap: wrap;
 }
+
 .imagem {
-    width: 600px;
+    max-width: 600px;
     border: 1px solid white;
 }
+.fotografias .imagem img {
+  height: calc(100% - 0rem);
+  width: 100%;
+}
+
 #fotografias {
     margin-top: 200px;
     text-align: center;
