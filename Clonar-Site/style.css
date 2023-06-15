@@ -120,7 +120,6 @@
         position: relative;
         top: 4px;
     }
-    
     .flex {
         display: flex;
         position: absolute;
@@ -139,7 +138,7 @@
     .video video {
         position: relative;
         top: -610px;
-        left: 185px;
+        left: 190px;
         width: 465px;
         z-index: 0;
     }
@@ -147,7 +146,7 @@
     .video img {
         position: relative;
         top: -230px;
-        left: 100px;
+        left: 105px;
         z-index: 1;
     }
     
@@ -162,6 +161,52 @@
     .frases h2 {
         position: relative;
         top: -95px;
-        font-size: 26px;
-        left: 300px;
+        font-size: 24px;
+        left: 370px;
+    }
+    .frases2 h1{
+        position: relative;
+        top: 550px;
+        left: -40px;
+        font-size: 48px;
+        font-weight: bold;
+    }
+    .frases2 h2{
+        position: relative;
+        top: 565px;
+        left: -40px;
+        color: #fff;
+        font-size: 24px;
+    }
+    .video2 video{
+        position: relative;
+        top: 420px;
+        left: -172px;
+        width: 400px;
+    }
+    .video2 img{
+        position: relative;
+        top: 390px;
+        left: 350px;
+        z-index: 1;
+    }
+    .frases3 h1{
+        position: relative;
+        top: 1100px;
+        left: 380px;
+        font-size: 48px;
+        font-weight: bold;
+    }
+    .frases3 h2{
+        position: relative;
+        top: 1120px;
+        left: 370px;
+        font-size: 24px;
+        color: white;
+    }
+    .img3 img{
+        position: relative;
+        top: 980px;
+        left: 420px;
+
     }
