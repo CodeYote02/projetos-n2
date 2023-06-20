@@ -23,7 +23,6 @@
 
 <body id="home" class="p-3 m-0 border-0 bd-example">
   <header>
-    <!-- place navbar here -->
       <!--nav do bootstrap-->
       <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
@@ -41,11 +40,15 @@
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
+                  Categorias
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Internacional</a></li>
+                  <li><a class="dropdown-item" href="#">Norte</a></li>
+                  <li><a class="dropdown-item" href="#">Nordeste</a></li>
+                  <li><a class="dropdown-item" href="#">Centro-Oeste</a></li>
+                  <li><a class="dropdown-item" href="#">Sudeste</a></li>
+                  <li><a class="dropdown-item" href="#">Sul</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
@@ -115,17 +118,32 @@
         <img id="myImg9" src="https://s2.static.brasilescola.uol.com.br/be/2020/05/sertao-nordestino.jpg" class="img-fluid myImg" alt="...">
       </div>
      </div>
-     <!-- The Modal -->
+     <!-- Modal -->
     <div id="myModal" class="modal">
       <span class="close">&times;</span>
       <img class="modal-content" id="img01">
       <div id="caption"></div>
     </div>
     </div>
+    <div id="categorias" class="categorias">
+      <div class="menu">
+        <ul class="border border-light-subtle shadow p-3 mb-5 bg-body-tertiary rounded">
+          <li><a class="list-group-item list-group-item-action" href="#categorias" onclick="changeContent(['https://i0.statig.com.br/bancodeimagens/78/pt/gs/78ptgsfeddfh638dkkzya5p3y.jpg', 'https://lh5.googleusercontent.com/rBPvK9jzx9oEmNxNG37Go5dqAMv4LTQs5_9K2JKIWq1e_dB8HkQ_RNQXE5wQfTN5Senda4L3LP5e-W9C3MolCL6JJTJC-LpuPfbC-XQZbHWc9gGAt5IOBd5w7CGpn9CLBm5u8-jF', 'caminho-imagem-3.jpg'])">Internacional</a></li>
+          <li><a class="list-group-item list-group-item-action" href="#categorias" onclick="changeContent(['caminho-imagem-4.jpg', 'caminho-imagem-5.jpg', 'caminho-imagem-6.jpg'])">Norte</a></li>
+          <li><a class="list-group-item list-group-item-action" href="#categorias" onclick="changeContent(['caminho-imagem-7.jpg', 'caminho-imagem-8.jpg', 'caminho-imagem-9.jpg'])">Nordeste</a></li>
+          <li><a class="list-group-item list-group-item-action" href="#categorias" onclick="changeContent(['caminho-imagem-7.jpg', 'caminho-imagem-8.jpg', 'caminho-imagem-9.jpg'])">Centro-Oeste</a></li>
+          <li><a class="list-group-item list-group-item-action" href="#categorias" onclick="changeContent(['caminho-imagem-7.jpg', 'caminho-imagem-8.jpg', 'caminho-imagem-9.jpg'])">Sudeste</a></li>
+          <li><a class="list-group-item list-group-item-action" href="#categorias" onclick="changeContent(['caminho-imagem-7.jpg', 'caminho-imagem-8.jpg', 'caminho-imagem-9.jpg'])">Sul</a></li>
+        </ul>
+      </div>
+      <div class="content" id="content">
+        Selecione um link no menu lateral para ver as imagens correspondentes aqui.
+      </div>
+    </div>
 
   </main>
   <footer>
-    <!-- place footer here -->
+
   </footer>
 
   <!-- Bootstrap JavaScript Libraries -->
@@ -137,7 +155,8 @@
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
   </script>
 
-  <script src="script.js"></script>
+  <script src="scripts/script-categorias.js"></script>
+  <script src="scripts/script.js"></script>
 </body>
 
 </html>
