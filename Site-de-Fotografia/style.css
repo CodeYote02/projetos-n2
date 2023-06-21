@@ -35,11 +35,11 @@ li {
 }
 
 .imagem {
-    max-width: 600px;
+    max-width: 500px;
     border: 1px solid white;
 }
-.fotografias .imagem img {
-  height: calc(100% - 0rem);
+.imagem img {
+  height: 100%;
   width: 100%;
 }
 
@@ -137,7 +137,7 @@ li {
   }
 
   .menu {
-    width: 200px;
+    width: 300px;
     background-color: transparent;
     padding: 10px;
     margin-left: 50px;
@@ -148,18 +148,58 @@ li {
   }
 
   .content {
-    flex: 1;
-    background-color: white;
-    padding: 10px;
     margin-top: 50px;
-
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+  }
+  .content h1 {
+    margin-left: 20px;
+    width: 100%;
+  }
+  .content div {
+    max-width: 500px;
+    border: 1px solid white;
+  }
+  .content .imagem img {
+    height: 100%;
+    width: 100%;
   }
 
-  .content img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    margin: 5px;
+  .footer {
+    background-color: white;
+    grid-area: footer;
+    text-align: justify;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+  }
+  .footer .contatos  {
+    display: flex;
+    justify-content: center;
+    
+  }
+  .footer .contatos img {
+    width: 50px;
+    margin: 20px;
+  }
+  
+  .footer > p {
+    
+    margin: 2rem;
+    
+  }
+  
+  .footer i {
+    vertical-align: middle;
+  }
+  
+  @media (max-width: 28.75em) {
+    .footer {
+      flex-direction: column;
+      text-align: center;
+    }
   }
