@@ -3,6 +3,9 @@ body {
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 }
+a {
+	text-decoration: none;
+}
 
 .intro {
 	margin: 30px 0px;
