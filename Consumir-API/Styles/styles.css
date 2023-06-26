@@ -9,7 +9,6 @@ a {
 }
 
 body{
-    padding: 4rem;
     background: #201b2c;
     color: #000;
     display: flex;
@@ -120,6 +119,8 @@ body{
     text-align: center;
     align-items: center;
     margin-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #000;
 }
 
 #coord-container #lat #lon{
