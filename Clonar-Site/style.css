@@ -42,12 +42,19 @@
         left: 350px;
     }
     
+    #butao {
+        width: 100%;
+        height: 100%;
+        size: 100px;
+    }
+    
     .btn-login {
         position: relative;
-        right: 215px;
-        font-size: 0.875rem;
-        font-weight: 500;
-        min-height: 2rem;
+        left: 1400%;
+        font-size: 0.9rem;
+        font-weight: 500px;
+        width: 1000px !important;
+        /* min-height: 2rem; */
         padding: 0.25rem 1rem;
         background: rgb(229, 9, 20);
         color: rgb(255, 255, 255);
@@ -96,7 +103,6 @@
         width: 400px;
         height: 55px;
         margin-top: 15px;
-        
         border-radius: 5px;
         background-color: rgba(0, 0, 0, 0.548);
     }
@@ -120,48 +126,56 @@
         color: white;
         position: relative;
         top: 4px;
+        text-align: center;
     }
+    
     .flex {
         display: flex;
         position: absolute;
         top: 1000px;
     }
-    .borda-cinza{
+    
+    .borda-cinza {
         margin-top: 3rem;
         width: 100%;
-        height: .5rem; 
+        height: .5rem;
         background-color: rgb(43, 43, 43);
     }
-    .borda-1{
+    
+    .borda-1 {
         margin-top: 3rem;
         width: 100%;
-        height: .5rem; 
+        height: .5rem;
         background-color: rgb(43, 43, 43);
     }
-    .borda-02{
+    
+    .borda-02 {
         position: relative;
         top: 1320px;
         margin-top: 3rem;
         width: 347%;
-        height: .5rem; 
+        height: .5rem;
         background-color: rgb(43, 43, 43);
     }
-    .borda-03{
+    
+    .borda-03 {
         position: relative;
         top: 100px;
         margin-top: 0;
         width: 100%;
-        height: .5rem; 
+        height: .5rem;
         background-color: rgb(43, 43, 43);
     }
-    .borda-04{
+    
+    .borda-04 {
         position: relative;
         top: 700px;
         margin-top: 0;
         width: 100%;
-        height: .5rem; 
+        height: .5rem;
         background-color: rgb(43, 43, 43);
     }
+    
     .frases {
         width: 50%;
         color: #fff;
@@ -177,7 +191,6 @@
         left: 190px;
         width: 465px;
         z-index: 0;
-        
     }
     
     .video img {
@@ -201,61 +214,68 @@
         font-size: 24px;
         left: 370px;
     }
-    .frases2 h1{
+    
+    .frases2 h1 {
         position: relative;
         top: 550px;
         left: -40px;
         font-size: 48px;
         font-weight: bold;
     }
-    .frases2 h2{
+    
+    .frases2 h2 {
         position: relative;
         top: 565px;
         left: -40px;
         color: #fff;
         font-size: 24px;
     }
-    .video2 video{
+    
+    .video2 video {
         position: relative;
         top: 420px;
         left: -172px;
         width: 400px;
     }
-    .video2 img{
+    
+    .video2 img {
         position: relative;
         top: 390px;
         width: 60%;
         left: 350px;
         z-index: 1;
     }
-    .frases3 h1{
+    
+    .frases3 h1 {
         position: relative;
         top: 1100px;
         left: 380px;
         font-size: 48px;
         font-weight: bold;
     }
-    .frases3 h2{
+    
+    .frases3 h2 {
         position: relative;
         top: 1120px;
         left: 370px;
         font-size: 24px;
         color: white;
     }
-    .img3 img{
+    
+    .img3 img {
         position: relative;
         top: 980px;
         left: 420px;
         width: 90%;
-
     }
-    #celular  {
+    
+    #celular {
         position: relative;
         top: 1580px;
         width: 550px;
         left: 350px;
-
     }
+    
     #poster {
         position: relative;
         top: 1710px;
@@ -263,6 +283,7 @@
         left: -72px;
         z-index: 101;
     }
+    
     #gif {
         position: relative;
         top: 1710px;
@@ -270,6 +291,7 @@
         left: 100px;
         z-index: 101;
     }
+    
     .fundo-preto {
         position: absolute;
         top: 1865px;
@@ -281,11 +303,13 @@
         background-color: rgb(0, 0, 0);
         color: #000;
     }
-    .fundo-preto h1{
+    
+    .fundo-preto h1 {
         position: relative;
         font-size: 1rem;
         left: 90px;
     }
+    
     .fundo-preto p {
         position: relative;
         font-size: 13px;
@@ -293,12 +317,14 @@
         left: 90px;
         color: #0071eb;
     }
+    
     .frases4 h1 {
         position: relative;
         top: 700px;
         font-size: 48px;
         left: 920px;
     }
+    
     .frases4 h2 {
         position: relative;
         top: 715px;
@@ -306,6 +332,7 @@
         color: white;
         left: 920px;
     }
+    
     .perguntas {
         width: 100%;
         position: relative;
@@ -316,53 +343,63 @@
         align-items: center;
         text-align: center;
     }
+    
     .perguntas button {
         width: 62%;
         height: 83px;
         text-align: left;
         align-items: center;
-        background: rgb(45,45,45);
+        background: rgb(45, 45, 45);
         color: white;
         border: none;
         margin-bottom: 10px;
         display: flex;
     }
+    
     .perguntas button img {
         position: absolute;
         display: flex;
         left: 78%;
         width: 28px;
     }
+    
     .perguntas button:hover {
         background-color: rgb(75, 75, 75);
     }
+    
     .perguntas h1 {
         font-size: 50px;
         font-weight: bold;
         margin-top: 3rem;
         margin-bottom: 30px;
     }
+    
     .perguntas h2 {
         font-size: 1.5rem;
-        font-weight:normal;
+        font-weight: normal;
         margin-left: 18px;
     }
+    
     .perguntas h3 {
         font-size: 21px;
         font-weight: normal;
         margin-top: 35px;
         color: white;
     }
+    
     .email2 {
         display: flex;
-        text-align: center;
+        text-align: center !important;
+        align-items: center !important;
     }
+    
     .email2 button {
         margin-top: 12px;
         margin-left: 10px;
-        text-align: center;
-        
+        text-align: center !important;
+        align-items: center !important;
     }
+    
     .footer {
         position: relative;
         top: 3200px;
@@ -370,9 +407,8 @@
         margin: 0rem auto;
         overflow: auto;
         font-size: 14px;
-        
-        
     }
+    
     .footer,
     .footer a {
         margin-top: 5px;
@@ -380,13 +416,11 @@
         font-size: 14px;
         left: 105px;
         font-size: 15px;
-        
     }
     
     .footer p {
         margin-bottom: 1.5rem;
         font-size: 18px;
-        
     }
     
     .footer .footer-cols {
@@ -394,8 +428,6 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-gap: 2rem;
-
-        
     }
     
     .footer li {
