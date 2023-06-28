@@ -1,6 +1,6 @@
 const apiKey = "871c022af251f0860451b3f9edeccbdb";
 const apiCountryURL = "https://www.countryflagicons.com/FLAT/64/.png";
-const apiUnsplash = "https://source.unsplash.com/1600x900/?";
+const unsplash = "https://source.unsplash.com/1600x900/?";
 
 const cityInput = document.querySelector("#city-input");
 const searchBtn = document.querySelector("#search");
@@ -49,7 +49,7 @@ const showWeatherData = async (city) =>{
 
     weatherContainer.classList.remove("hide");
 
-    document.body.style.backgroundImage = `url("${apiUnsplash + city}")`;
+    document.body.style.backgroundImage = `url("${unsplash + city}")`;
 };
 
 searchBtn.addEventListener("click", (e) => {
