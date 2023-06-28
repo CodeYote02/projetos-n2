@@ -1,23 +1,23 @@
 (function() {
     var questions = [{
-      question: "What is 2*5?",
-      choices: [2, 5, 10, 15, 20],
+      question: "Quem foi o primeiro presidente do Brasil?",
+      choices: ['Jânio Quadros', 'Euclides da Cunha', 'Deodoro da Fonseca', 'Júlio Prestes', 'José de Alencar'],
       correctAnswer: 2
     }, {
-      question: "What is 3*6?",
-      choices: [3, 6, 9, 12, 18],
+      question: "Em que ano acabou a Segunda Guerra Mundial?",
+      choices: [1760, 1964, 1890, 1934, 1945],
       correctAnswer: 4
     }, {
-      question: "What is 8*9?",
-      choices: [72, 99, 108, 134, 156],
+      question: "Que empresa foi responsável pelo lançamento do iphone?",
+      choices: ['Apple', 'IBM', 'Microsoft', 'Samsung', 'Xiaomi'],
       correctAnswer: 0
     }, {
-      question: "What is 1*7?",
-      choices: [4, 5, 6, 7, 8],
+      question: "Qual destes foi o primeiro homem a pisar na Lua?",
+      choices: ['Iuri Gagarin', 'Elon Musk', 'George Soros', 'Neil Armstrong', 'Nikita krushev'],
       correctAnswer: 3
     }, {
-      question: "What is 8*8?",
-      choices: [20, 30, 40, 50, 64],
+      question: "Qual o maior planeta do nosso sistema solar?",
+      choices: ['Plutão', 'Mercúrio', 'Vênus', 'Saturno', 'Júpiter'],
       correctAnswer: 4
     }];
     
@@ -40,7 +40,7 @@
       
       // If no user selection, progress is stopped
       if (isNaN(selections[questionCounter])) {
-        alert('Please make a selection!');
+        alert('Por favor, selecione um item!');
       } else {
         questionCounter++;
         displayNext();
@@ -151,7 +151,7 @@
     
     // Computes score and returns a paragraph element to be displayed
     function displayScore() {
-      var score = $('<p>',{id: 'question'});
+      var score = $('<p>',{id: 'questões'});
       
       var numCorrect = 0;
       for (var i = 0; i < selections.length; i++) {
@@ -160,8 +160,8 @@
         }
       }
       
-      score.append('You got ' + numCorrect + ' questions out of ' +
-                   questions.length + ' right!!!');
+      score.append('Você acertou ' + numCorrect + ' questões de  ' +
+                   questions.length +  ' questões ');
       return score;
     }
   })();
