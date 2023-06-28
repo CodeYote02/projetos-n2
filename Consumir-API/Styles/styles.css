@@ -9,6 +9,7 @@ a {
 }
 
 body{
+    padding: 2rem;
     background: #201b2c;
     color: #000;
     display: flex;
@@ -37,6 +38,10 @@ body{
 .form h3{
     margin-bottom: 1rem;
     text-align: center;
+}
+.form h1{
+    text-align: center;
+    padding: 0.5rem;
 }
 
 .form-input-container{
